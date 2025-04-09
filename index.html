@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="styles/style1.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
+  <title>Main-page</title>
+</head>
+
+<body>
+   <main style="overflow:hidden;">
+        <div class="grid-container">
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item " id="main-section">
+                <div class="grid-left">
+                    <div class="jimmy_folder folder-container" id="jimmy-folder">
+                        <img src="./styles/images/folder.png" height="84px" width="84px" alt="" class="jimmy-img">
+                        <p>Jimmy</p>
+                    </div>
+                    <div class="gabriel folder-container" id="gabriel-folder">
+                        <img src="./styles/images/folder.png" height="84px" width="84px" alt="">
+                        <p>Ulysse</p>
+                    </div>
+                    <div class="rania_folder folder-container" id="rania-folder">
+                        <img src="./styles/images/folder.png" height="84px" width="84px" alt="">
+                        <p>Wali</p>
+                    </div>
+                    <div class="nicolas_folder folder-container" id="nicolas-folder">
+                        <img src="./styles/images/folder.png" height="84px" width="84px" alt="">
+                        <p>Mehdi</p>
+                    </div>
+                </div>
+
+                <div class="grid-nav">
+
+                    <div class="nav-text">
+                        <p  style="text-align: left; margin-left: 30px; color: rgb(255, 255, 255);">Bienvenue sur notre site !</p>
+                    </div>
+                    <div class="tbs-icons">
+                      
+                        <!-- ✅ Nouveau bouton de switch -->
+                        <button id="switch-folders" title="Changer les icônes de dossiers" style="margin-left: 8px; cursor: pointer;">🎨</button>
+                      </div>
+
+                    <div class="tbs-icons">
+                        <i class="fa-solid fa-square-xmark" id="cross-btn"></i>
+                        <i class="fa-regular fa-square" id="square-btn"></i>
+                        <i class="fa-regular fa-square-minus" id="minus-btn"></i>
+                    </div>
+                    
+                </div>
+                <div class="grid-main">
+                    <div class="wrapper" id="wrapper-about_us">
+                        <header>
+                            <p>/about_us/</p>
+                            <button class="exit-btn" id="btn-close-about_us">&times</button>
+                        </header>
+
+                            <div class="content">
+
+                                <p style="font-family: DOS_Font1;">Labyrinouz</p>
+                        
+                                <p style="border-bottom: 2px solid black; font-size: 15px; color:black; text-shadow: none;">
+                                    Nous sommes une équipe dynamique et passionnée, travaillant sur un projet innovant alliant algorithmique et développement en Rust.  
+                                    <br/>Notre objectif est de concevoir une bibliothèque modulaire de génération et de résolution de labyrinthes, accompagnée d'une interface fonctionnelle et d'un site web dédié.  
+                                    Ce projet met en avant des approches algorithmiques avancées, une rigueur de développement et une attention particulière à la conception logicielle.  
+                                    <br/>Découvrez notre travail, suivez notre progression et plongez au cœur des défis techniques que nous relevons.  
+                                    Rejoignez-nous dans cette aventure où optimisation, créativité et ingénierie se rencontrent pour offrir une expérience captivante.  
+                                    <br/>
+                                    <br/>
+                                </p>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="wrapper" id="wrapper-tutorial">
+                        <header>
+                          <p>/tutorial/</p>
+                          <button class="exit-btn" id="btn-close-tutorial">&times;</button>
+                        </header>
+                        <div class="content">
+                          <div id="slideshow" class="slideshow">
+                            <button id="prev-btn" class="arrow-btn">
+                              <img src="styles/images/arrow-left.png" alt="prev">
+                            </button>
+                      
+                            <img id="dog-photo" src="styles/images/Screenshot1.webp" />
+                      
+                            <button id="next-btn" class="arrow-btn">
+                              <img src="styles/images/arrow-right.png" alt="next">
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="wrapper" id="wrapper-chronology">
+                        <header>
+                            <p>/chronology/</p>
+                            <button class="exit-btn" id="btn-close-chronology">&times</button>
+                        </header>
+                        <div class="content">
+
+                            <div style="width: 900px;" class="chronology-container">
+                                
+                                <div class="middle-line"></div>
+                                <div class="chronology-space">
+
+                                    <div class="chronology-box left-side">
+                                        <div class="point left-side"></div>
+                                        <p class="chr-title">La naissance de Labyrinouz</p>
+                                        <p class="chr-date left-side">Mi-Novembre</p>
+                                        <p class="chr-text">Le projet Labyrinouz a débuté en novembre avec une volonté commune : concevoir une bibliothèque modulaire pour la génération et la résolution de labyrinthes, en Rust.
+                                            L’idée de départ est née d’une réflexion collective autour de la complexité algorithmique des labyrinthes et de leur potentiel ludique et pédagogique.
+                                            Nous avons commencé par définir les grands axes : architecture logicielle, interface utilisateur, communication réseau, et site web.
+                                            Chaque membre s’est vu attribuer une responsabilité selon ses compétences, et très vite, une première version de l’arborescence du projet a vu le jour, accompagnée d’un planning précis.
+                                            
+                                        </p>
+                                    </div>
+                                    <div class="chronology-box right-side">
+                                        <div class="point right-side"></div>
+                                        <p class="chr-title">Début des développements</p>
+                                        <p class="chr-date right-side">Décembre-Février</p>
+                                        <p class="chr-text">
+                                            Wali s’est distingué par sa capacité à transformer des concepts complexes de génération procédurale et d’IA en modules concrets et fonctionnels.
+                                            Il a conçu les bases d’un système intelligent capable de générer des labyrinthes variés et dynamiques, tout en réfléchissant à la logique d’adversaires contrôlés par IA.
+                                            Ces deux mois lui ont permis d’approfondir ses connaissances tout en apportant des contributions essentielles à l’expérience de jeu.
+                                            
+                                            Ulysse a pris en main avec efficacité la partie algorithmique du projet, notamment les aspects liés à la résolution de labyrinthes et aux communications réseau.
+                                            En parallèle, il a renforcé ses compétences en Rust tout en explorant les couches réseau pour assurer une transmission fiable entre les clients.
+                                            Sa persévérance lui a permis de surmonter des défis complexes et d’apporter des solutions robustes au cœur du système.
+
+ 
+                                        </p>
+                                    </div>
+
+                                    <div class="chronology-box left-side">
+                                        <div class="point left-side"></div>
+                                        <p class="chr-title">Création de notre site web</p>
+                                        <p class="chr-date left-side">Février-Mars</p>
+                                        <p class="chr-text">
+                                            Enfin, Jimmy et Mehdi ont également développé un site web après avoir terminé la fonction multijoueur.
+                                            Ce site, pensé pour offrir une expérience utilisateur unique, intègre des fonctionnalités nécessaires pour soutenir notre projet.
+                                            Jimmy a apporté son expertise en design pour créer une interface attrayante et facile à utiliser, tandis que Gabriel s'est assuré du bon fonctionnement technique pour une expérience fluide. 
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="chronology-box right-side">
+                                        <div class="point right-side"></div>
+                                        <p class="chr-title">Prochainement...</p>
+                                        <p class="chr-date right-side">Jusqu'à la dernière soutenance</p>
+                                        <p class="chr-text">
+                                            Pour les prochaines étapes du projet, nous prévoyons que Gabriel se chargera des tâches restantes, notamment la conception de la carte et du système de zones.
+                                            Ces éléments viendront compléter notre vision d'un projet abouti et fonctionnel, prêt à être déployé avec succès.
+                                            En résumé, notre avancée méthodique et notre engagement sans faille montrent notre détermination à mener ce projet à bien.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="wrapper" id="wrapper-download">
+                        <header>
+                            <p>/download/</p>
+                            <button class="exit-btn" id="btn-close-download">&times</button>
+                        </header>
+                        <div class="ornaments">
+                            <div class="content">
+
+                                <p style="font-family: DOS_Font1;">Documents:</p>
+                                <br/>
+                                
+                                <a class="download-btn" href="styles\Cahier_des_charges (1).pdf" download>
+                                    <img class="download-image" src="styles/images/download-button.png"></img>
+                                    <p>Cahier des Charges Fonctionnel</p>
+                                </a>
+                               
+                                <br/>
+                                <a class="download-btn" href="styles\rapport_labyrinouz.docx" download>
+                                    <img class="download-image" src="styles/images/download-button.png"></img>
+                                    <p>Rapport de soutenance</p>
+                                </a>
+                                
+                                
+                                <br/>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">Jeu:</p>
+                                <br/>
+                                <div class="download-btn">
+                                    <img class="download-image" src="styles/images/download-button.png"></img>
+                                    <p>/!\ - EN CONSTRUCTION - /!\</p>
+                                </div>
+                                
+                                <br/>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">Liens:</p>
+                                <a style="color:rgb(179, 179, 179); font-family: 'Courier New', Courier, monospace; box-shadow: none;" target="_blank" href="https://www.rust-lang.org/fr">Rust, documentations, etc...</a>
+                                <br/>
+                                <a target="_blank" href="https://unity.com/fr"></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper" id="wrapper-jimmy">
+                        <header>
+                            <p>/Jimmy N./</p>
+                            <button class="exit-btn" id="btn-close-jimmy">&times</button>
+                        </header>
+                        <div class="content">
+                            <br/>
+                                <img class="photo" src="./styles/images/jimmyphoto.jpg" style="float: left;"/>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">&nbsp Nom: Jimmy N.</p>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">&nbsp Rôle: Design et interface utilisateur</p>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">Description: </p>
+                                <p style="border-bottom: 2px solid black; font-size: 15px; color:black; text-shadow: none;">
+                                    Jimmy est responsable de l’aspect visuel et ergonomique du projet.  
+                                    Il travaille sur la conception graphique de l’interface utilisateur ainsi que sur le design du site web associé.  
+                                    Grâce à son sens du détail et de l’esthétique, il veille à offrir une expérience utilisateur fluide et attrayante.  
+                                    Son travail englobe aussi la communication visuelle du projet, assurant une cohérence dans la présentation et l’identité graphique.  
+                                    <br/>
+                                    <br/>
+                                </p>
+                        </div>
+                    </div>
+                    <div class="wrapper" id="wrapper-ulysse">
+                        <header>
+                            <p>/Ulysse T./</p>
+                            <button class="exit-btn" id="btn-close-ulysse">&times</button>
+                        </header>
+                        <div class="content">
+                            <br/>
+                                <img class="photo" src="./styles/images/ulyssephoto.png" style="float: left;"/>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">&nbsp Nom: Ulysse T.</p>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">&nbsp Rôle: Chef d'équipe et développeur Rust</p>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">Description: </p>
+                                <p style="border-bottom: 2px solid black; font-size: 15px; color:black; text-shadow: none;">
+                                    Passionné par l'algorithmique et le développement bas niveau, Ulysse est le chef d'équipe de ce projet.  
+                                    Il joue un rôle clé dans la conception et l'implémentation des algorithmes de génération et de résolution de labyrinthes en Rust.  
+                                    Son expertise lui permet de structurer le projet avec rigueur tout en garantissant un code propre et efficace.  
+                                    En dehors de ce projet, il se consacre à l'apprentissage de nouvelles technologies et à l'amélioration de ses compétences en programmation.  
+                                    <br/>
+                                    <br/>
+                                </p>
+                        </div>
+                    </div>
+                    <div class="wrapper" id="wrapper-wali">
+                        <header>
+                            <p>/Wali B./</p>
+                            <button class="exit-btn" id="btn-close-wali">&times</button>
+                        </header>
+                        <div class="content">
+                            <br/>
+                                <img class="photo" src="./styles/images/waliphoto.webp" style="float: left;"/>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">&nbsp Nom: Wali B.</p>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">&nbsp Rôle: Génération & Intelligence Artificielle</p>
+
+                                <br/>
+                                <p style="font-family: DOS_Font1;">Description: </p>
+                                <p style="border-bottom: 2px solid black; font-size: 15px; color:black; text-shadow: none;">
+                                    Wali est passionné par l'intelligence artificielle et la génération procédurale.  
+                                    Il aime comprendre et concevoir des systèmes capables de créer du contenu de manière autonome.  
+                                    Avec une forte curiosité pour les algorithmes complexes, il cherche sans cesse à améliorer ses connaissances et ses compétences.  
+                                    Ce projet lui permet d'explorer en profondeur ces domaines et d'appliquer ses idées pour enrichir l'expérience du jeu.
+                                    <br/>
+                                    <br/>
+                                </p>
+                        </div>
+                    </div>
+                    <div class="wrapper" id="wrapper-mehdi">
+                        <header>
+                            <p>/Mehdi T./</p>
+                            <button class="exit-btn" id="btn-close-mehdi">&times</button>
+                        </header>
+                        <div class="content">
+                            <br/>
+                                <img class="photo" src="./styles/images/mehdiphoto.jpg" style="float: left;"/>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">&nbsp Nom: Mehdi T.</p>
+                                <br/>
+                                <p style="font-family: DOS_Font1;">&nbsp Rôle: Algorithmes & Réseau</p>
+
+                                <br/>
+                                <p style="font-family: DOS_Font1;">Description: </p>
+                                <p style="border-bottom: 2px solid black; font-size: 15px; color:black; text-shadow: none;">
+                                    Depuis son enfance, Mehdi a toujours été curieux du monde qui l'entoure. 
+                                    En grandissant, il a compris l'importance de l'informatique et s'y est intéressé de près. 
+                                    C'est à EPITA qu'il a réellement plongé dans la programmation.  
+                                    Ce projet lui permet d'explorer l'univers du réseau, une facette de l'informatique qu'il appréhendait auparavant.  
+                                    Il y perfectionne également ses compétences en Rust, notamment dans l’élaboration et la résolution d’algorithmes.
+                                    <br/>
+                                    <br/>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="icon" id="btn-about_us">
+                        <img src="./styles/images/folder.png" alt="" height="84px" width="84px">
+                        <p>about_us.exe</p>
+                    </div>
+                    <div class="icon" id="btn-tutorial">
+                        <img src="styles/images/folder.png" alt="tutorial" height="84px" width="84px">
+                        <p>tutorial.exe</p>
+                    </div>
+                    <div class="icon" id="btn-chronology">
+                        <img src="./styles/images/folder.png" alt="" height="84px" width="84px">
+                        <p>chronology.exe</p>
+                    </div>
+                    <div class="icon" id="btn-download">
+                        <img src="./styles/images/folder.png" alt="" height="84px" width="84px">
+                        <p>download.exe</p>
+                    </div>
+                    
+                  </div>
+                
+                </div>
+            </div>
+           
+   </main>
+
+</body>
+
+<footer>
+
+</footer>
+
+<script defer src="app.js"></script>
+</html>
